@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    background: rgb(228, 222, 210);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(220, 210, 210);
+    margin: 100px 0px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.monkey-face {
+    background: rgb(65, 134, 72);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 350px;
+    height: 350px;
+    font-size: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+
+input {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1pt dotted black;
+    padding: 5px;
+    margin: 5px 0px;
+    min-width: 300px;
+}
+
+.monkey {
+    position: relative;
+    left: 12%;
+    bottom: 9%;
+}
+
+.eyes {
+    position: relative;
+    background: rgb(32, 32, 32);
+    border: 10pt solid rgb(41, 40, 40);
+    border-radius: 50%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eye-1 {
+    right: 50.5%;
+    bottom: 8.75%;
+}
+
+#eye-2 {
+    right: 47%;
+    bottom: 8.75%;
+}
+
+.eyeball {
+    position: relative;
+    background: rgb(255, 255, 255);
+    border: 8pt solid rgb(235, 222, 222);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+#normal,
+#ears,
+#mouth,
+#close {
+    display: none;
+}
+
+.active {
+    display: block !important;
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+.login-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 20px 100px;
+    padding: 5px 0px;
+    font-size: 18px;
+    border-radius: 12px;
+    background: rgb(241, 235, 224);
+}
+
+
+.pt-30 {
+    padding-top: 30px;
+}
